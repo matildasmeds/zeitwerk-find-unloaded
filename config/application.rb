@@ -17,3 +17,10 @@ module ZeitwerkFindUnloaded
     # the framework and any gems in your application.
   end
 end
+
+# Would be done on config object...
+loader = Zeitwerk::Loader.new
+loader.push_dir('lib')
+loader.setup
+loader.eager_load
+

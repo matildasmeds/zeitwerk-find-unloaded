@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Quick sketch for identifying non-autoloadable ruby files in a Rails app
 
-Things you may want to cover:
+Run rake task to print file paths, whose contents have not been autoloaded
+`rake autoload:find_unloaded`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
