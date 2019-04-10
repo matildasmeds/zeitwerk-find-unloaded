@@ -1,0 +1,2 @@
+class HTMLParser < ApplicationRecord
+end
